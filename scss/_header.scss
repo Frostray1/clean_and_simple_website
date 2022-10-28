@@ -1,0 +1,68 @@
+header {
+    width: 1440px;
+  height: 80px;
+  //   border: 1px solid black;
+  display: flex;
+  margin: 0 auto;
+}
+
+.header__circle {
+  width: 26px;
+  height: 26px;
+  background-color: #5e81fe;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1.5em 0em 0em 5em; // сверху справа снизу слева
+  // margin-top: 27px;
+  // margin-left: 117px;
+}
+
+.header__nav-menu {
+  //   background-color: blue;
+  display: inline-block;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 1.5em 0px 0px 10em;
+  ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    a {
+        text-decoration: none;
+      padding-right: 3em;
+    }
+  }
+}
+
+.header__social-media-menu {
+  display: inline-block;
+  margin: 0.8em 0em 0em 20em;
+  ul {
+    list-style-type: none;
+    display: flex;
+    a {
+        
+      padding-right: 2em;
+    }
+  }
+}
+
+.header__button {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  display: inline-block;
+  width: 113px;
+  height: 43px;
+  background-color: #d2e1ff;
+  margin: 0.8em 0em 0em 2em;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: #3a79ff;
+    line-height: 3.2em;
+  }
+}
