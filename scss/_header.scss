@@ -1,7 +1,7 @@
 header {
     width: 1440px;
   height: 80px;
-  //   border: 1px solid black;
+
   display: flex;
   margin: 0 auto;
 }
@@ -13,12 +13,11 @@ header {
   border-radius: 50%;
   display: inline-block;
   margin: 1.5em 0em 0em 5em; // сверху справа снизу слева
-  // margin-top: 27px;
-  // margin-left: 117px;
+ 
 }
 
 .header__nav-menu {
-  //   background-color: blue;
+
   display: inline-block;
   font-family: "Quicksand";
   font-style: normal;

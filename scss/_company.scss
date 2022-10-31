@@ -1,0 +1,15 @@
+.company{
+    height: 145px;
+}
+
+.company__list{
+    width: 850px;
+    list-style-type: none;
+    display: flex;
+    margin-left: 27%;
+    li{
+        
+        margin-top: 4%;
+        padding-right: 8%;
+    }
+}
