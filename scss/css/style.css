@@ -72,13 +72,14 @@ header {
   height: 570px;
   margin: 0 auto;
   position: relative;
+  background-image: url(/img/svg/main/productivity.svg);
 }
 
 .productivity__info {
   width: 583px;
   position: absolute;
   text-align: center;
-  margin-left: 30%;
+  margin-left: 32.2%;
   margin-top: 5%;
   color: #3d4f9f;
   font-style: normal;
@@ -110,8 +111,15 @@ header {
   background: #ffffff;
   margin-left: 46%;
   border-radius: 50%;
+  margin-top: 10%;
 }
 .productivity__button img {
   margin-top: 38%;
   margin-left: 5%;
+}
+
+.productivity__nav {
+  margin-top: 510px;
+  margin-left: 50%;
+  position: absolute;
 }
