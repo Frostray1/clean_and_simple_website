@@ -1,0 +1,121 @@
+.read-about {
+  width: 1441px;
+  height: 885px;
+  background-image: url(/img/svg/read-about/background__1.svg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  text-align: center;
+  color: #3d4f9f;
+position: absolute;
+
+  
+}
+.read-about__content{
+    width:1000px ;
+    height: 573px;
+    
+    // margin-left: 230px;
+    margin: 0 auto;
+    margin-top: 110px;
+    
+
+}
+.read-about__header--h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+//   margin-top: 50px;
+}
+.read-about__header--h2 {
+    font-family: "Quicksand";
+    // font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+.read-about__list {
+  list-style-type: none;
+  display: flex;
+  // width: 140px;
+  margin-left: 140px;
+  // margin-right: 375px;
+  text-align: center;
+  img {
+    margin-top: 92px;
+  }
+  h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 2em;
+    color: #4074f8;
+  }
+  p {
+    width: 102px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    text-align: center;
+    color: #adb3cb;
+    margin-top: 25px;
+  }
+  li {
+    padding-right: 70px;
+    // width: 140px;
+  }
+}
+
+.read-about__button {
+  display: flex;
+  align-items: center;
+  margin-left: 320px;
+  p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    margin-top: 104px;
+    margin-left: 48px;
+    margin-right: 48px;
+    color: #ADB3CB;
+  }
+}
+
+.read-about__button--red {
+  width: 113px;
+  height: 43px;
+  background: #ffd7d7;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: #d43f3f;
+  margin-top: 92px;
+//   margin-left: 552px;
+  a {
+    text-decoration: none;
+    color: #d43f3f;
+    line-height: 40px;
+  }
+  
+}
+.read-about__button--blue {
+    width: 113px;
+    height: 43px;
+    background: #ffd7d7;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    background: #D2E1FF;
+    margin-top: 92px;
+   
+    a {
+      text-decoration: none;
+      color: #3A79FF;
+      line-height: 40px;
+    }
+    
+  }
