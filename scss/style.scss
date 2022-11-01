@@ -2,8 +2,9 @@ body{
     margin:0;
     padding: 0;
 }
-@import "./header";
+@import "./_header";
 @import "./_productivity";
-@import "./company";
-@import "./planAndManage";
-@import "./read-about";
+@import "./_company";
+@import "./_planAndManage";
+@import "./_read-about";
+@import "./_whiteBlue";
