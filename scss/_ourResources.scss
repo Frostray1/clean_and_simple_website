@@ -1,0 +1,130 @@
+.our-resources {
+  width: 1440px;
+  height: 865px;
+  margin: 0 auto;
+  background-color: #f5f8ff;
+  font-weight: 500;
+  text-align: center;
+  h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 10px;
+    color: #3d4f9f;
+    padding-top: 104px;
+  }
+  h2 {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-size: 24px;
+    color: #3d4f9f;
+    padding-top: 20px;
+  }
+}
+
+.our-resources__scroll {
+  display: flex;
+  margin-top: 92px;
+}
+.our-resources__scrollLeft {
+  margin-left: 143px;
+  margin-right: 75px;
+}
+.our-resources__scrollRight {
+  margin-right: 143px;
+  margin-left: 75px;
+}
+
+.our-resources__scrollSlides {
+  width: 958px;
+  height: 394px;
+  background-color: white;
+  display: flex;
+}
+
+.our-resources__scrollSlides__img {
+  height: 267px;
+  display: flex;
+  margin-top: 63px;
+  margin-left: 35px;
+  img {
+    border-radius: 2%;
+  }
+}
+
+.our-resources__scrollSlides__imgContainer {
+  width: 126px;
+  margin-left: 12px;
+  img {
+    padding-bottom: 10px;
+  }
+}
+
+.our-resources__scrollSlides__info {
+  width: 408px;
+  height: 267px;
+  float: left;
+  text-align: left;
+  margin-left: 67px;
+  margin-top: 63px;
+  h3 {
+    padding: 0;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+  }
+  p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8d96bd;
+    line-height: 27px;
+    margin-top: 32px;
+  }
+}
+
+.our-resources__scrollButtons {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  display: flex;
+  margin-top: 38px;
+  a{
+    text-decoration: none;
+  }
+}
+
+.scrollButtons__buttonFirst {
+  text-decoration: none;
+  text-align: center;
+  width: 113px;
+  height: 43px;
+  background: #d2e1ff;
+
+  color: #3a79ff;
+  line-height: 40px;
+  border-radius:2px;
+  a{
+    
+    color: #3a79ff;
+  }
+}
+
+.scrollButtons__buttonSecond {
+    text-decoration: none;
+    text-align: center;
+
+    margin-left: 23px;
+  
+   
+    line-height: 40px;
+    a{
+        color: #A6B6DA;
+    }
+  }
+
+  .our-resources__nav{
+margin-top: 101px;
+  }

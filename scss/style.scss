@@ -1,10 +1,11 @@
-body{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
-}
+  }
 @import "./_header";
 @import "./_productivity";
 @import "./_company";
 @import "./_planAndManage";
 @import "./_read-about";
 @import "./_whiteBlue";
+@import "./ourResources";
