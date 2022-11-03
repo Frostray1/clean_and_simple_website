@@ -1,0 +1,115 @@
+.customer-help {
+  width: 1440px;
+  height: 964px;
+  text-align: center;
+  margin: 0 auto;
+  h3 {
+    padding: 177px 0px 20px 0px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: #3d4f9f;
+  }
+  h2 {
+    padding: 0px 0px 68px 0px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #3d4f9f;
+  }
+}
+
+.customer-help__list {
+  margin: 0 auto;
+  text-align: left;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  color: #8e96b7;
+  width: 743px;
+  p {
+    width: 391px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #8d96bd;
+    margin: 16px 0px 53px 42px;
+  }
+  summary {
+    display: inline-block;
+    padding: 0.3em 0.6em 0.3em 1.5em;
+    font-size: 1.4em;
+    cursor: pointer;
+    position: relative;
+  }
+  summary:before {
+    left: 0.3em;
+    top: 0.4em;
+    color: transparent;
+    background: url("/img/svg/customers/listIcon.svg") no-repeat 50% 50% / 14px
+      7px;
+    width: 1em;
+    height: 1em;
+    content: "";
+    position: absolute;
+    transition: transform 0.5s;
+  }
+  details[open] > summary:before {
+    transform: rotateZ(180deg);
+  }
+  summary ~ * {
+    padding: 0 1em 0 1em;
+  }
+  details[open] summary ~ * {
+    animation: sweep 0.5s ease-in-out;
+  }
+  @keyframes sweep {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  summary:focus {
+    outline: 0;
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3),
+      inset 0 0 2px rgba(0, 0, 0, 0.3);
+  }
+  details {
+    display: block;
+    margin-bottom: 1.5rem;
+    padding-bottom: 15px;
+    border: 0;
+    border-bottom: 1px solid #d8e3fe;
+  }
+}
+.list__info {
+  display: flex;
+}
+
+.list__link {
+  width: 195px;
+  height: 43px;
+  background: #e8ecf4;
+  border-radius: 2px;
+  text-align: center;
+//   float: right;
+  margin-top: 1em;
+  margin-left: 6em;
+  a {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+    color: #7382A3;
+    line-height: 40px;
+  }
+}
