@@ -32,7 +32,7 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  margin: 1.5em 0px 0px 10em;
+  margin: 2.5em 0px 0px 10em;
 }
 .header__nav-menu ul {
   list-style-type: none;
@@ -46,7 +46,7 @@ header {
 
 .header__social-media-menu {
   display: inline-block;
-  margin: 0.8em 0em 0em 20em;
+  margin: 1.7em 0em 0em 23em;
 }
 .header__social-media-menu ul {
   list-style-type: none;
@@ -65,7 +65,7 @@ header {
   width: 113px;
   height: 43px;
   background-color: #d2e1ff;
-  margin: 0.8em 0em 0em 2em;
+  margin: 1em 0em 0em 2em;
   text-align: center;
 }
 .header__button a {
@@ -86,7 +86,7 @@ header {
   width: 583px;
   position: absolute;
   text-align: center;
-  margin-left: 32.2%;
+  margin-left: 30%;
   margin-top: 5%;
   color: #3d4f9f;
   font-style: normal;
@@ -97,7 +97,7 @@ header {
   font-size: 10px;
 }
 .productivity__info h1 {
-  margin: 0;
+  margin-top: 16px;
   font-family: "Quicksand";
   font-weight: 300;
   font-size: 48px;
@@ -105,6 +105,7 @@ header {
 .productivity__info p {
   width: 456px;
   margin-left: 5em;
+  margin-top: 28px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -127,7 +128,7 @@ header {
 
 .productivity__nav {
   margin-top: 510px;
-  margin-left: 50%;
+  margin-left: 48.9%;
   position: absolute;
 }
 
@@ -139,12 +140,12 @@ header {
   width: 850px;
   list-style-type: none;
   display: flex;
-  margin-left: 27%;
+  margin-left: 30%;
   align-items: center;
   justify-content: center;
 }
 .company__list li {
-  margin-top: 4%;
+  margin-top: 6%;
   padding-right: 8%;
 }
 
@@ -173,6 +174,7 @@ header {
   font-weight: 900;
   font-size: 36px;
   font-weight: bold;
+  margin: 27px 0px 27px 0px;
 }
 .plan-and-manage__about p {
   font-family: "Roboto";
@@ -271,6 +273,8 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
 .read-about__header--h2 {
@@ -307,13 +311,14 @@ header {
   margin-top: 25px;
 }
 .read-about__list li {
-  padding-right: 70px;
+  padding-right: 105px;
 }
 
 .read-about__button {
   display: flex;
   align-items: center;
-  margin-left: 320px;
+  margin-left: 333px;
+  margin-top: 50px;
 }
 .read-about__button p {
   font-family: "Open Sans";
@@ -380,7 +385,7 @@ header {
   margin-top: 66px;
 }
 .block__blue h2 {
-  margin-right: 90px;
+  padding: 24px 90px 20px 0px;
   font-weight: 400;
   font-size: 48px;
   margin-bottom: 0;
@@ -405,7 +410,7 @@ header {
   margin-left: 90px;
 }
 .block__white h2 {
-  margin-left: 90px;
+  padding: 24px 0px 20px 90px;
   font-weight: 400;
   font-size: 48px;
   margin-bottom: 0;
@@ -613,7 +618,7 @@ header {
 
 .customer-help {
   width: 1440px;
-  height: 964px;
+  min-height: 964px;
   text-align: center;
   margin: 0 auto;
 }
